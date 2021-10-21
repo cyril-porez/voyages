@@ -1,0 +1,108 @@
+/*-------------Contact---------*/
+body {
+    margin: 0;
+}
+
+#container-contact-col {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+}
+
+.container-contact-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-between;
+}  
+
+#formulaire {
+    display: flex;
+}
+
+.bob {
+    width: 40%;
+    border-radius: 10px;
+  
+}
+
+#message {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#button-contact {
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #2B9CE8;
+    box-shadow: 5px 5px 5px #1268A3;
+    margin-top: 10px;
+}
+
+/*---------------FIN-----------*/
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
