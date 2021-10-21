@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 40s ease-in-out infinite;
+    background-size: cover;
+     
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(https://zimonews.com/wp-content/uploads/2021/04/Que-faire-a-Tokyo-meilleures-excursions-et-activites.jpg);
+    }
+    35%{
+        background-image: url(https://www.sothebysrealty.com/localimagereader.ashx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fg7p5h8hm8ygnmr29fpbkc3kdm4i215&imagecache=true);
+    }
+    50%{
+        background-image: url(https://www.sortiraparis.com/images/80/66131/634580-covid-au-bresil-plus-de-4000-morts-enregistres-en-24h.jpg);
+    }
+    75%{
+        background-image: url(https://mocah.org/uploads/posts/897176-landscape-nature-Norway-island-mountains-rocks.jpg);
+    }
+
+}
+
+.imagefond{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.details{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.details h1{
+    font-size: 4em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.details h2{
+    font-size: 1,5em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
