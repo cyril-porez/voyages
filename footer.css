@@ -29,12 +29,16 @@ body{
 }
 
 footer{
-  
-    background-color: whitesmoke;
-    opacity: 50%;
+    border-top: 1px solid grey; 
+    /*background-color: whitesmoke;
+    opacity: 50%;*/
+    
   
    
     
+}
+.border{
+    width: 80%;
 }
 .contenu-footer{
     display: flex;
@@ -42,7 +46,9 @@ footer{
     align-items: flex-start;
     width: 100%;
     color: grey;
-    font: ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    
     
 
 }
@@ -50,14 +56,19 @@ footer{
 .contenu-partenariat img{
 
     width: 60px;
+
 }
+
+
+
 
 .contenu-aide{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-decoration: none;
-    list-style: none;
+    align-items: center;
+   
+    
 }
 
 #style{
@@ -65,12 +76,55 @@ footer{
 }
 .contenu-suivez-nous{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 
    
 }
 
 .listeLogo{
-    
     list-style: none;
+   
+}
+
+
+.listeLogotest {
+    list-style: none;
+    
+   
+}
+
+.listeLogotest i {
+    margin-top: 0.5rem;
+    color: grey;
+   
+}
+
+
+
+.contenu-partenariat{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu-coordonnees{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    width: 20%;
+}
+
+
+
+h3{
+    padding: 20px 0 30px 0;
 }
 
