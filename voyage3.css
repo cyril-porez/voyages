@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin:0;
+}
+
+h1{
+    margin: 0;
+    font-family: fantasy;
+    font-size: 5rem;
+}
+.carnaval{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.defile img{
+
+    width: 700px;
+}
+
+.vide{
+    width: 100%;
+    height: 40px;
+}
+
+.texte1{
+    border: solid red 2px;
+    width: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    text-align: justify;
+   
+}
+
+h2{
+    font-size: 2.3rem;
+}
+
+.cuisine{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+ 
+ 
+
+  
+
+}
+.texte2{
+    border: solid red 2px;
+    width: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    text-align: justify;
+   
+}
+
+.cuisine_photo img{
+        border: 2px blue solid;
+        display: flex;
+
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width:  50%;
+       
+}
+
+
+.condemble{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;    
+    margin: 50px 0 50px 0;
+
+}
+
+.condemble_photo img{
+    width: 800px;
+
+}
+
+.texte3{
+    border: solid red 2px;
+    width: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    text-align: justify;
+   
+}
+h2{
+    text-align: center;
+}
+
+.slide{
+    float: left;
+    
+    
+}
+
+.slider{ 
+    height: 800px;
+    border: deeppink solid 2px;
+   
+}
+
+.slide img{
+    float: left;
+    width: 1420px;
+    height: 800px;
+
+   
+  
+   
+}
+
+.slides{
+    width: 100%;
+    height: 800px;
+    
+}
