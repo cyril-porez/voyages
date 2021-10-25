@@ -1,11 +1,13 @@
 body{
     padding: 0;
     margin:0;
+    
+    
 }
 
 h1{
     margin: 0;
-    font-family: fantasy;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 5rem;
 }
 .carnaval{
@@ -13,6 +15,9 @@ h1{
     height: 60vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+    
 
 }
 
@@ -23,27 +28,64 @@ h1{
 
 .vide{
     width: 100%;
-    height: 40px;
+    height: 25vh;
+}
+.vide2{
+    width: 100%;
+    height: 40vh;
 }
 
 .texte1{
-    border: solid red 2px;
+    
     width: 30%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
-    text-align: justify;
+
+   
+    
    
 }
 
 h2{
-    font-size: 2.3rem;
+    font-size: 2.1rem;
+    text-align: left;
+    padding: 20px;
 }
 
+p{
+    text-align: justify;    
+}
+#mark1{ background-color: rgb(255, 255, 2);
+       border: 8px solid  rgb(22, 22, 163);
+       border-radius: 3rem;
+
+}
+#mark2{ color: rgb(22, 22, 163);
+
+}  
+#mark3{ color:rgb(31, 136, 28);
+
+}
+
+
+
+span{
+    display: flex;
+    justify-content: center;
+
+    font-size: 5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin:50px;
+   
+}
 .cuisine{
     width: 100%;
     height: 60vh;
     display: flex;
     justify-content: space-around;
+    padding:0; 
+   
  
  
 
@@ -51,22 +93,28 @@ h2{
 
 }
 .texte2{
-    border: solid red 2px;
+   
     width: 30%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
     text-align: justify;
-   
+    
 }
 
 .cuisine_photo img{
         border: 2px blue solid;
-        display: flex;
-
-        justify-content: space-around;
-        flex-wrap: wrap;
-        width:  50%;
+        width: 370px;
+        height: 300px;
+        
        
+}
+
+.cuisine_photo{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
 }
 
 
@@ -74,17 +122,18 @@ h2{
     display: flex;
     justify-content: space-around;
     width: 100%;    
-    margin: 50px 0 50px 0;
+   height: 80vh;
+   
 
 }
 
 .condemble_photo img{
-    width: 800px;
+    width: 700px;
 
 }
 
 .texte3{
-    border: solid red 2px;
+ 
     width: 40%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
@@ -103,7 +152,7 @@ h2{
 
 .slider{ 
     height: 800px;
-    border: deeppink solid 2px;
+  
    
 }
 
@@ -121,4 +170,40 @@ h2{
     width: 100%;
     height: 800px;
     
+}
+
+table.damier{
+        border-collapse: collapse;
+        padding: 0;
+        border:0;
+
+
+}
+
+.damier td{
+    max-height: 280px;
+
+}
+
+.damier img{
+   width: 280px;
+   margin-bottom: -7px;
+ 
+
+}
+
+.invisble{
+    width: 280px;
+    height: 280px;
+
+}
+
+.tr{
+    height: 280px;
+
+}
+
+.cover{
+    height: 280px;
+    width: 280px;
 }
