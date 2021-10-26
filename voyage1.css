@@ -5,9 +5,17 @@ body section{
     width: 100%;
     height: 100%;
 }
+
+header {
+    position: relative;
+    height: 60.25vw;
+}
+
 #video {
     width: 100%;
+    z-index: -1;
     overflow: none;
+    position: absolute;
 }
 
 .slide {
@@ -125,33 +133,125 @@ hr {
     margin-top: 20px;
 }
 
+.img {
+    border-radius: 10px;
+}
+
+td {
+    transition-duration: 0.6s;
+    transition-delay: 0.3s;
+}
+
 td:hover {
-    transform: scale(1.3, 1.3); /* Équivalent à scaleX(2) scaleY(0.5) */
+    transform: scale(1.2); /* Équivalent à scaleX(2) scaleY(0.5) */
 }
 
 details {
-    border: 1px solid #aaa;
+    border: 1px solid black;
+    border-radius: 10px;
 }
+
+details > summary {
+    list-style: none;
+  }
+
+details > summary::-webkit-details-marker {
+    display: none;
+  }
+    
+details:hover {
+    transform: scale(0.9, 0.9) ;
+}
+
 
 details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
-}
+    list-style-type: none;
+}   
 
 .txt-plat {
     font-family: Arial, Helvetica, sans-serif;    
 }
 /*---------------------fin------------------------------------------------------*/
 
+/*-------------------Header--------------*/
+body {
+    margin:  0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(245, 245, 245, 0.562);
+    
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+    float: right;
+}
+
+ul li {
+    display: block;
+    float: left;
+}
+
+li ul {
+    display: none;
+}
+
+ul li  a{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    width:100px; 
+    margin-right: 50px;
+    border-radius:5%;
+}
+
+li:hover ul {
+    display: block;
+}
+
+li:hover li {
+    float: none;
+}
+
+.acc {
+    margin-top: 40px;
+}
+
+a {
+    text-align: center;
+}
+
+a:hover {
+    background-color: #E7E7E7;
+    border-radius: 10px;   
+}
+
+
+/*----------------------Fin--------------*/
+
+
 /*----------------------------------footer--------------------------------------*/
-*, ::before, ::after{
+/**, ::before, ::after{
 
     box-sizing:border-box;
     margin:0;
     padding:0;
-    
-}
-
+}*/
 
 .background{
         width: 100%;
@@ -237,3 +337,4 @@ footer{
 h3{
     padding: 20px 0 30px 0;
 }
+/*-----------------------------fin------------------------*/
