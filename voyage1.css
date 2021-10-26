@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+}
+body section{
+    width: 100%;
+    height: 100%;
+}
+#video {
+    width: 100%;
+    overflow: none;
+}
+
+.slide {
+    float: left;
+}
+
+.slides {
+    width: calc(500px*10);
+    animation: glisse 20s infinite;
+}
+
+.slider {
+    width: 500px;
+    overflow: hidden;
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+    5% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(-500px);
+    }
+    15% {
+        transform: translateX(-500px);
+    } 
+    20% {
+        transform: translateX(-1000px);
+    }
+    25% {
+        transform: translateX(-1000px);
+    } 
+    30% {
+        transform: translateX(-1500px);
+    }
+    35% {
+        transform: translateX(-1500px);
+    } 
+    40% {
+        transform: translateX(-2000px);
+    }
+    45% {
+        transform: translateX(-2000px);
+    }
+    50% {
+        transform: translateX(-2500px);
+    }
+    55% {
+        transform: translateX(-2500px);
+    }
+    60% {
+        transform: translateX(-3000px);
+    }
+    65% {
+        transform: translateX(-3000px);
+    }
+    70% {
+        transform: translateX(-3500px);
+    }
+    75% {
+        transform: translateX(-3500px);
+    }
+    80% {
+        transform: translateX(-4000px);
+    }
+    85% {
+        transform: translateX(-4000px);
+    }
+    90% {
+        transform: translateX(-4500);
+    }
+    95% {
+        transform: translateX(-4500);
+    }
+    100% {
+        transform: translateX(0);
+    } 
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 180px;
+    
+}
+
+#top-surf {
+    margin-top: 20px;
+}
+
+hr {
+    width: 500px;
+    margin-top: 50px;
+}
+
+#galerie {
+    display: flex;
+    justify-content: center;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#row2 {
+    margin-top: 20px;
+}
+
+td:hover {
+    transform: scale(1.3, 1.3); /* Équivalent à scaleX(2) scaleY(0.5) */
+}
+
+details {
+    border: 1px solid #aaa;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+.txt-plat {
+    font-family: Arial, Helvetica, sans-serif;    
+}
