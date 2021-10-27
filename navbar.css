@@ -4,8 +4,8 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: whitesmoke;
+nav {
+    background-color: rgba(245, 245, 245, 0.562);
 }
 
 #logo {
