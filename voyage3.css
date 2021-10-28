@@ -1,22 +1,98 @@
 body{
     padding: 0;
     margin:0;
+    font-family: 'Oxygen', sans-serif; 
+    font-family: 'Staatliches', cursive; 
+  
     
+}
+main{
+    height: 650vh;
+
+}
+header{
+    position:relative;
+    height:10vh;
+    z-index: 3;
+}
     
+.titreBrazil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    text-shadow: rgb(0, 0, 0) 1px 0px 10px;
+    z-index: 2;
+    position: absolute;
+  
 }
 
 h1{
-    margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 5rem;
+   
+    font-family: Oxygen, sans-serif;
+    font-size: 8rem;
+    color: whitesmoke;
+    font-variant: small-caps;  /* ne fonctionne pas*/
 }
+
+
+.slider{ 
+    width: 1420px;
+    height: 800px;
+    overflow: hidden;
+    position:absolute;
+    z-index: 1;
+    opacity: 80%;
+   
+   
+}
+/*----------------------------------Header----------------------------------------------*/
+ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+ul li {
+    display: block;
+    float: left;
+}
+
+li ul {
+    display: none;
+}
+
+ul li a {
+    display: block;
+    font-family:helvetica;
+    font-size:20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    width:100px; 
+    
+    border-radius:5%;
+}
+
+li:hover ul {
+    display: block;
+}
+
+li:hover li {
+    float: none;
+}
+
+/*----------------------------------Header----------------------------------------------*/
+
+
 .carnaval{
     width: 100%;
     height: 60vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px 0 40px 0;
+  
     
 
 }
@@ -24,59 +100,83 @@ h1{
 .defile img{
 
     width: 700px;
+    transform:rotate(270deg);
 }
 
 .vide{
     width: 100%;
-    height: 25vh;
+    height: 150vh;
 }
 .vide2{
     width: 100%;
-    height: 40vh;
+    height: 25vh;
+}
+.vide3{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+p{
+    text-align: justify;
+    font-size: 0.9rem;
+    font-family:'Staatliches', cursive;    
 }
 
 .texte1{
     
-    width: 30%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1rem;
-
-   
+    width: 60%;
+    border: khaki solid 2px;
+}
+.texte2{
+    width: 50%;
+    font-size: 0.9rem;
+    padding: 0 0 0px 40px;
     
-   
 }
 
-h2{
-    font-size: 2.1rem;
+.texte3{
+ 
+    width: 40%;
+  
+    font-size: 0.9rem;
+    text-align: justify;
+
+}
+
+
+.titreArticle {
+    font-size: 1rem;
     text-align: left;
-    padding: 20px;
-}
-
-p{
-    text-align: justify;    
-}
-#mark1{ background-color: rgb(255, 255, 2);
-       border: 8px solid  rgb(22, 22, 163);
-       border-radius: 3rem;
-
-}
-#mark2{ color: rgb(22, 22, 163);
-
-}  
-#mark3{ color:rgb(31, 136, 28);
-
+    padding: 0px;
+    margin-bottom: 200px;
+    font-family: Oxygen, sans-serif; 
+    border: 2px solid red;
 }
 
 
+#v{ 
+    
+   /* border: 8px solid  rgb(22, 22, 163);*/
+    font-family: Oxygen, cursive;
+    font-size: 2em;
+    font-weight: lighter;
+    font-variant-position:super;
 
+
+    
+}
+  
 span{
     display: flex;
     justify-content: center;
-
     font-size: 5rem;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin:50px;
+    font-family: Oxygen, sans-serif;
+    font-weight: bolder;
+   
+   
    
 }
 .cuisine{
@@ -84,29 +184,13 @@ span{
     height: 60vh;
     display: flex;
     justify-content: space-around;
-    padding:0; 
-   
- 
- 
-
-  
-
 }
-.texte2{
-   
-    width: 30%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1rem;
-    text-align: justify;
-    
-}
+
 
 .cuisine_photo img{
-        border: 2px blue solid;
-        width: 370px;
-        height: 300px;
-        
        
+        width: 350px;
+        height: 300px;
 }
 
 .cuisine_photo{
@@ -117,93 +201,121 @@ span{
     width: 60%;
 }
 
-
 .condemble{
     display: flex;
     justify-content: space-around;
     width: 100%;    
    height: 80vh;
-   
-
 }
 
 .condemble_photo img{
-    width: 700px;
-
-}
-
-.texte3{
- 
-    width: 40%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1rem;
-    text-align: justify;
+    width: 640px;
    
+    padding: 0 0 0 20px;
 }
+
+
+
 h2{
-    text-align: center;
+    text-align:justify;
+    font-size: 2em;
+    font-family:Oxygen, sans-serif;
+    
 }
 
 .slide{
     float: left;
-    
-    
-}
-
-.slider{ 
-    height: 800px;
-  
-   
-}
-
-.slide img{
-    float: left;
-    width: 1420px;
-    height: 800px;
-
-   
-  
-   
 }
 
 .slides{
-    width: 100%;
+    width: calc(1420px * 5);
     height: 800px;
-    
+    animation: glisse 60s infinite; 
 }
 
-table.damier{
+@keyframes glisse { 
+    0% { 
+        transform: translateX(0px);
+    }
+    /*12% { 
+        transform: translateX(0px);
+    }*/
+    25% { 
+    transform: translateX(-1420px);
+    }
+    /*37% { 
+        transform: translateX(-1420px);
+        }*/
+    50% { 
+    transform: translateX(-2840px); 
+    }
+    /*62% { 
+        transform: translateX(-2840px); 
+        }*/
+    75% { 
+    transform: translateX(-4260px);
+    }
+    /*87% { 
+        transform: translateX(-4260px);
+        }*/
+    100% { 
+    transform: translateX(0px);
+}
+}
+/*----------------------------tableau---------------------------------*/ 
+.damier{
         border-collapse: collapse;
-        padding: 0;
+        padding:0;
         border:0;
-
-
 }
 
 .damier td{
     max-height: 280px;
-
 }
 
 .damier img{
    width: 280px;
    margin-bottom: -7px;
- 
-
-}
+ }
 
 .invisble{
     width: 280px;
     height: 280px;
-
 }
 
 .tr{
     height: 280px;
-
 }
 
 .cover{
     height: 280px;
     width: 280px;
+    transition: 1s;
+}
+
+.cover:hover{
+    transform: scale(1.5,1.5);
+    transition: 0.5s;
+}
+.cover[open] summary{
+    margin-bottom: .5rem;
+}
+
+.player{
+    height: 280px;
+    width: 280px;
+    transition: 1s;
+}
+
+.player:hover{
+    transform: scale(1.5,1.5);
+    transition: 0.5s;
+}
+
+  
+.player audio{
+    width: 280px;
+    outline: none;
+    background-: white;
+
 }

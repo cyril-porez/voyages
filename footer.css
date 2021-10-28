@@ -11,32 +11,22 @@
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    
-
 }
 
 .background{
         width: 100%;
         
 }
-
-
-
-
 .contenu-principal{
     width: 100%;
     height: 100vh;
 }
-
 footer{
     border-top: 1px solid grey; 
-    /*background-color: whitesmoke;
-    opacity: 50%;*/
-    
-  
-   
-    
+    background-color: rgb(220, 228, 220);
+    opacity: 50%;
 }
+
 .border{
     width: 80%;
 }
@@ -87,6 +77,8 @@ footer{
 
 .listeLogo{
     list-style: none;
+    display: flex;
+    flex-direction: column;
    
 }
 
@@ -97,12 +89,20 @@ footer{
    
 }
 
-.listeLogotest i {
-    margin-top: 0.5rem;
-    color: rgb(0, 0, 0);
-   
+.listeLogotest ul li a i{
+    margin-top: 0.4rem;
+    color: rgb(12, 10, 10);
+    height:10px;
+    width:10px
 }
 
+.fab fa-instagram{
+    margin-top: 0.4rem;
+    color: rgb(12, 10, 10);
+    height:10px;
+    width:10px
+}
+    
 
 
 .contenu-partenariat{
@@ -118,8 +118,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
     width: 20%;
+    
 }
 
 
