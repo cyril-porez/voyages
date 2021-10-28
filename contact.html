@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contact.css">
+        <title>Contact</title>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <img id="logo" src="Logo.png" alt="logo">
+                <ul>
+                    <li class="acc"><a href="">Accueil</a></li>
+                    <li class="acc"><a href="">Présentation</a></li>
+                    <li class="acc"><a href="">Explorateur</a>
+                        <ul>
+                            <li><a href="">Clara</a></li>
+                            <li><a href="">Naomie</a></li>
+                            <li><a href="voyage1.html">Cyril</a></li>
+                        </ul>
+                    </li>
+                    <li class="acc"><a href="">Continent</a>
+                        <ul>
+                            <li><a href="">Afrique</a></li>
+                            <li><a href="">Asie</a></li>
+                            <li><a href="voyage1.html">Océanie</a></li>
+                        </ul>
+                    </li>
+                    <li class="acc"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <body>
+            <main>
+                <h1>Formulaire</h1>
+                <div id="container-contact-col">
+                    <div class="container-contact-row">
+                        <input class="bob" type="text" id="fname" name="fname" placeholder="Prénom">
+                        <input class="bob" type="text" id="lname" name="lname" placeholder="Nom">                        
+                    </div>
+                    <div class="container-contact-row">
+                        <input class="bob" type="text" id="tel" placeholder="Tel:">
+                        <input class="bob" type="text" id="mail" name="mail" placeholder="Mail:">
+                   </div>
+                    <div >
+                        <textarea name="message" id="message" cols="44" rows="10" placeholder="message"></textarea>
+                    </div>
+                    <div>
+                        <button type="button" id="button-contact" onclick="alert('message envoyé')">Envoyer</button>
+                    </div>
+                </div>
+            </main>
+        </body>
+        <footer>
+            <div class="contenu-footer">
+                <div class="contenu-aide">
+                    <h3>AIDE</h3>
+                    <a id="style" href="https://www.instagram.com/lundi.am/?hl">FAQ</a>
+                </div>    
+                <div class="contenu-suivez-nous">
+                    <h3>SUIVEZ NOUS!</h3>    
+                    <ul class="listeLogotest">
+                        <li><a href="https://www.instagram.com/lundi.am/?hl"><i class="fab fa-instagram"></i></li>
+                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=fr"><i class="fab fa-twitter"></i></a></li>
+                    </ul>   
+                </div>    
+                <div class="contenu-partenariat">
+                    <h3>PARTENARIAT</h3>
+                    <ul class="listeLogo">
+                        <li> <img src="images/marseille.png" alt="Logo Ville de Marseille"> </li>
+                        <li> <img src="images/kiss.png" alt="Logo Kiss Kiss Bang Bang"> </li>                        
+                    </ul>
+                </div>
+                <div class="contenu-coordonnees">
+                    <h3>COORDONNÉES</h3>
+                    <ul class="listeLogo">
+                        <li>8 rue d'Hozier</li>
+                        <li>13 002, Marseille</li>
+                        <li>contact@lapltaforme.io</li>
+                        <li>04 84 85 43 69</li>
+                    </ul>    
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
