@@ -77,7 +77,7 @@ body{
     
 }
 main{
-    height: 650vh;
+    height: 700vh;
 
 }
 header{
@@ -175,13 +175,17 @@ li:hover li {
 
 .vide{
     width: 100%;
-    height: 150vh;
+    height: 170vh;
 }
 .vide2{
     width: 100%;
-    height: 25vh;
+    height: 60vh;
 }
 .vide3{
+    width: 100%;
+    height: 25vh;
+}
+.vide4{
     width: 100%;
     height: 60vh;
     display: flex;
@@ -198,46 +202,35 @@ p{
 .texte1{
     
     width: 60%;
-    border: khaki solid 2px;
+    
 }
 .texte2{
-    width: 50%;
+    width: 70%;
     font-size: 0.9rem;
-    padding: 0 0 0px 40px;
+    border: red solid 2px;
+    
     
 }
 
 .texte3{
  
-    width: 40%;
-  
+    width: 70%;
     font-size: 0.9rem;
-    text-align: justify;
+   
 
 }
 
 
 .titreArticle {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: left;
-    padding: 0px;
-    margin-bottom: 200px;
-    font-family: Oxygen, sans-serif; 
+    width: 50%;
+    height: 30px;
+   font-family: Oxygen, sans-serif; 
     border: 2px solid red;
+    margin-bottom: 100px;
 }
 
-
-#v{ 
-    
-   /* border: 8px solid  rgb(22, 22, 163);*/
-    font-family: Oxygen, cursive;
-    font-size: 2em;
-    font-weight: lighter;
-    font-variant-position:super;
-
-
-    
-}
   
 span{
     display: flex;
@@ -245,22 +238,23 @@ span{
     font-size: 5rem;
     font-family: Oxygen, sans-serif;
     font-weight: bolder;
-   
-   
-   
 }
+
+
 .cuisine{
     width: 100%;
     height: 60vh;
     display: flex;
+    border: 2px red solid;
     justify-content: space-around;
+    align-items: center;
 }
 
 
 .cuisine_photo img{
        
-        width: 350px;
-        height: 300px;
+        width: 50px;
+        height: 50px;
 }
 
 .cuisine_photo{
@@ -271,26 +265,31 @@ span{
     width: 60%;
 }
 
+.blocTexte3{
+    weight: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    border: red 2px solid;
+    
+    
+    
+}
 .condemble{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;    
-   height: 80vh;
+   height: 70vh;
+   border: 2px solid    rgb(160, 125, 125);
+
 }
 
 .condemble_photo img{
     width: 640px;
-   
-    padding: 0 0 0 20px;
-}
-
-
-
-h2{
-    text-align:justify;
-    font-size: 2em;
-    font-family:Oxygen, sans-serif;
     
+    padding: 0 0 0 20px;
 }
 
 .slide{
