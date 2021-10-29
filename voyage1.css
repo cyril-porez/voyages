@@ -310,10 +310,15 @@ footer{
 
 .listeLogo{
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .listeLogotest {
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .listeLogotest i {
@@ -340,5 +345,8 @@ footer{
 
 h3{
     padding: 20px 0 30px 0;
+}
+#lienGithub{
+        text-decoration: none;
 }
 /*-----------------------------fin------------------------*/

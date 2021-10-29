@@ -237,11 +237,15 @@ align-items: center;
 
 .listeLogo{
 list-style: none;
+display: flex;
+flex-direction: column;
 
 }
 
 .listeLogotest {
 list-style: none;
+display: flex;
+flex-direction: column;
 }
 
 .listeLogotest i {
@@ -268,5 +272,9 @@ width: 20%;
 
 h3{
 padding: 20px 0 30px 0;
+}
+#lienGithub{
+  
+  text-decoration: none;
 }
 /*-----------------------------fin------------------------*/
