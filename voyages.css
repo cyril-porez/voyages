@@ -1,0 +1,243 @@
+/*-------------------Header--------------*/
+body {
+    margin:  0;
+    padding: 0;
+}
+
+header {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+    background-color: rgba(245, 245, 245, 0.562);
+    
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+    float: right;
+}
+
+ul li {
+    display: block;
+    float: left;
+}
+
+li ul {
+    display: none;
+}
+
+ul li  a{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding: 10px 10px 0px 10px;
+    text-decoration: none;
+    color: black;
+    width:100px; 
+    margin-right: 50px;
+    border-radius:5%;
+}
+
+li:hover ul {
+    display: block;
+}
+
+li:hover li {
+    float: none;
+}
+
+.acc {
+    margin-top: 40px;
+}
+
+a {
+    text-align: center;
+}
+
+a:hover {
+    background-color: #E7E7E7;
+    border-radius: 10px;   
+}
+
+
+/*----------------------Fin--------------*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+}
+
+#container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 40s ease-in-out infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(https://zimonews.com/wp-content/uploads/2021/04/Que-faire-a-Tokyo-meilleures-excursions-et-activites.jpg);
+    }
+    35%{
+        background-image: url(https://www.sothebysrealty.com/localimagereader.ashx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fg7p5h8hm8ygnmr29fpbkc3kdm4i215&imagecache=true);
+    }
+    50%{
+        background-image: url(https://www.sortiraparis.com/images/80/66131/634580-covid-au-bresil-plus-de-4000-morts-enregistres-en-24h.jpg);
+    }
+    75%{
+        background-image: url(https://mocah.org/uploads/posts/897176-landscape-nature-Norway-island-mountains-rocks.jpg);
+    }
+
+}
+
+#imagefond{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#details{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#details h1{
+    font-size: 4em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#details h2{
+    font-size: 1,5em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*----------------------------------footer--------------------------------------*/
+
+footer{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+}
+
+.background{
+    width: 100%;
+}
+
+.contenu-principal{
+width: 100%;
+height: 100vh;
+}
+
+footer{
+border-top: 1px solid grey; 
+background-color: whitesmoke;
+opacity: 50%;
+}
+
+.border{
+width: 80%;
+}
+
+#contenu-footer{
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+width: 100%;
+color: grey;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8em;
+}
+
+#contenu-partenariat img{
+width: 60px;
+}
+
+#contenu-aide{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#style{
+text-decoration: none;
+}
+
+#contenu-suivez-nous{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#listeLogo{
+
+list-style: none;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+#listeLogotest {
+list-style: none;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+#listeLogotest ul li a i {
+    margin-top: 0.4rem;
+    color: rgb(12, 10, 10);
+    height:10px;
+    width:10px;
+}
+
+#contenu-partenariat{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#contenu-coordonnees{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+width: 20%;
+}
+
+h3{
+padding: 20px 0 30px 0;
+}
+#lienGithub{
+    text-decoration: none;
+}
+/*-----------------------------fin------------------------*/
