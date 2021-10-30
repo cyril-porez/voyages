@@ -1,9 +1,7 @@
 *, ::before, ::after{
-
     box-sizing:border-box;
     margin:0;
-    padding:0;
-    
+    padding:0;    
 }
 
 .footer{
@@ -17,10 +15,12 @@
         width: 100%;
         
 }
+
 .contenu-principal{
     width: 100%;
     height: 100vh;
 }
+
 footer{
     border-top: 1px solid grey; 
     background-color: rgb(220, 228, 220);
@@ -30,7 +30,8 @@ footer{
 .border{
     width: 80%;
 }
-.contenu-footer{
+
+#contenu-footer{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -38,83 +39,59 @@ footer{
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
-    
-    
-
 }
 
-.contenu-partenariat img{
-
+#contenu-partenariat img{
     width: 60px;
-
 }
 
-
-
-
-.contenu-aide{
+#contenu-aide{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-   
-    
+    align-items: center;    
 }
 
 #style{
     text-decoration: none;
 }
-.contenu-suivez-nous{
 
+#contenu-suivez-nous{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
-   
 }
 
-.listeLogo{
+#listeLogo{
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-   
-   
+    justify-content: space-around;  
 }
 
-
-.listeLogotest {
+#listeLogotest {
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-
-
-    
-   
+    justify-content: space-around;  
 }
 
-.listeLogotest ul li a i{
+#listeLogotest ul li a i{
     margin-top: 0.4rem;
     color: rgb(12, 10, 10);
     height:10px;
     width:10px
 }
 
-
-
-
-.contenu-partenariat{
-    
+#contenu-partenariat{   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.contenu-coordonnees{
+#contenu-coordonnees{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,13 +100,10 @@ footer{
     
 }
 
-
-
 h3{
     padding: 20px 0 30px 0;
 }
 
 #lienGitbub{
     text-decoration: none;
-
 }

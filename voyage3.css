@@ -108,7 +108,7 @@ h1{
 
 
 .slider{ 
-    width: 1420px;
+    width: 100%;
     height: 800px;
     overflow: hidden;
     position:absolute;
@@ -118,7 +118,7 @@ h1{
    
 }
 
-.carnaval{
+#carnaval{
     width: 100%;
     height: 60vh;
     display: flex;
@@ -135,14 +135,14 @@ h1{
     transform:rotate(270deg);
 }
 
-.blocTexte1{
+#blocTexte1{
     display: flex;
     flex-direction: column;
     justify-content:space-around;
     align-items:center;
 }
 
-.blocTexte2{
+#blocTexte2{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -150,27 +150,27 @@ h1{
         
         width: 50%;
 }
-.blocTexte3{
-    weight: 40%;
+#blocTexte3{
+    width: 60%;
     height: 100vh;
     display: flex;
     flex-direction: column ;
     justify-content: space-around;
-    
+    margin-left: 70px;
 }
-.vide{
+#vide{
     width: 100%;
     height: 170vh;
 }
-.vide2{
+#vide2{
     width: 100%;
     height: 60vh;
 }
-.vide3{
+#vide3{
     width: 100%;
     height: 25vh;
 }
-.vide4{
+#vide4{
     width: 100%;
     height: 60vh;
     display: flex;
@@ -184,21 +184,16 @@ p{
     font-family:'Staatliches', cursive;    
 }
 
-.texte1{
-    
+#texte1{
     width: 60%;
-    
-}
-.texte2{
-    width: 70%;
-    font-size: 0.9rem;
-   
-    
-    
 }
 
-.texte3{
- 
+#texte2 {
+    width: 70%;
+    font-size: 0.9rem;    
+}
+
+#texte3 { 
     width: 80%;
     margin-left: 70px;
     font-size: 0.9rem;
@@ -206,26 +201,23 @@ p{
     margin-bottom: 80px;
 }
 
-
-.titreArticle{
-
-font-size: 25px;
-    text-align: center;
-    width: 100%;
-    
-    padding: 20px;
-   font-family: Oxygen, sans-serif; 
-}
-.titreArticle2{
+#titreArticle {
     font-size: 25px;
     text-align: center;
-    width: 100%;
-    
+    width: 100%;    
     padding: 20px;
-   font-family: Oxygen, sans-serif; 
+    font-family: Oxygen, sans-serif; 
 }
 
-.titreArticle3{
+#titreArticle2 {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;    
+    padding: 20px;
+    font-family: Oxygen, sans-serif; 
+}
+
+#titreArticle3 {
     font-size: 25px;
     text-align: center;
     width: 100%;
@@ -243,7 +235,7 @@ span{
 }
 
 
-.cuisine{
+#cuisine{
     width: 100%;
     height: 60vh;
     display: flex;
@@ -266,20 +258,15 @@ span{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 600px;
-    
+    width: 600px;    
 }
 
-
-
-.condemble{
+#condemble{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;    
-   height: 70vh;
-   
-
+    height: 70vh;
 }
 
 #condemble_photo img{
@@ -323,8 +310,12 @@ span{
         transform: translateX(-4260px);
         }*/
     100% { 
-    transform: translateX(0px);
+        transform: translateX(0px);
+    }
 }
+
+#lienGithub {
+    text-decoration: none;
 }
 /*----------------------------tableau---------------------------------*/ 
 .damier{
@@ -381,7 +372,7 @@ span{
 .player audio{
     width: 280px;
     outline: none;
-    background-: white;
+    background-color: white;
 
 }
 

@@ -18,6 +18,14 @@ header {
     position: absolute;
 }
 
+.titre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.liste1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .slide {
     float: left;
 }
@@ -252,6 +260,7 @@ a:hover {
 }
 
 
+
 /*----------------------Fin--------------*/
 
 
@@ -268,8 +277,8 @@ a:hover {
 
 footer{
     border-top: 1px solid grey; 
-    /*background-color: whitesmoke;
-    opacity: 50%;*/
+    background-color: whitesmoke;
+    opacity: 50%;
 }
 
 .border{

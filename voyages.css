@@ -83,7 +83,7 @@ main {
     height: 100vh;
 }
 
-.container{
+#container{
     position: absolute;
     left: 0;
     top: 0;
@@ -109,7 +109,7 @@ main {
 
 }
 
-.imagefond{
+#imagefond{
     position: absolute;
     left: 0;
     top: 0;
@@ -117,7 +117,7 @@ main {
     height: 100vh;
 }
 
-.details{
+#details{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -125,13 +125,13 @@ main {
     text-align: center;
 }
 
-.details h1{
+#details h1{
     font-size: 4em;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.details h2{
+#details h2{
     font-size: 1,5em;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -164,7 +164,7 @@ opacity: 50%;
 width: 80%;
 }
 
-.contenu-footer{
+#contenu-footer{
 display: flex;
 justify-content: space-around;
 align-items: flex-start;
@@ -174,11 +174,11 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 0.8em;
 }
 
-.contenu-partenariat img{
+#contenu-partenariat img{
 width: 60px;
 }
 
-.contenu-aide{
+#contenu-aide{
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -189,14 +189,14 @@ align-items: center;
 text-decoration: none;
 }
 
-.contenu-suivez-nous{
+#contenu-suivez-nous{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }
 
-.listeLogo{
+#listeLogo{
 
 list-style: none;
 display: flex;
@@ -204,21 +204,21 @@ flex-direction: column;
 justify-content: space-around;
 }
 
-.listeLogotest {
+#listeLogotest {
 list-style: none;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
 }
 
-.listeLogotest ul li a i {
+#listeLogotest ul li a i {
     margin-top: 0.4rem;
     color: rgb(12, 10, 10);
     height:10px;
     width:10px;
 }
 
-.contenu-partenariat{
+#contenu-partenariat{
 
 display: flex;
 flex-direction: column;
@@ -226,7 +226,7 @@ justify-content: center;
 align-items: center;
 }
 
-.contenu-coordonnees{
+#contenu-coordonnees{
 display: flex;
 flex-direction: column;
 justify-content: center;
